@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling for the custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;  /* Adjust the width of the vertical scrollbar */
+    height: 8px; /* Adjust the height of the horizontal scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #000000a1; /* Background of the scrollbar track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: white; /* Thumb color */
+    border-radius: 4.5px 0px 0px 0px; /* Custom border-radius */
+    width: 8px;  /* Width of the thumb */
+    height: 55px; /* Height of the thumb */
+    opacity: 1;  /* Ensure visibility */
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
